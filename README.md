@@ -22,6 +22,4 @@ This is a straightforward CSS gradient generator that allows you to easily creat
 
 ```css
 /* Generated Gradient CSS */
-background: linear-gradient(135deg, #ff6a00, #ee0979);
-Demo
-You can see a live demo of the CSS Gradient Generator here.
+background: linear-gradient(to right, #ff6a00, #ee0979);
