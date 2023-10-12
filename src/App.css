@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+.app {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.gradient h1 {
+  color: #d9d9d9;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+.colorPicker {
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+.btnRandom {
+  padding: 12px 18px;
+  background: #77dbcf;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.btnRandom:hover {
+  background: #6cc1b9;
+  transform: scale(1.05);
+}
+
+.output {
+  border-radius: 8px;
+  margin-top: 9rem;
+  display: flex;
+  font-size: 16px;
+  background: #fff;
+  align-items: center;
+  padding: 10px
+}
+
+.btnCopy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
