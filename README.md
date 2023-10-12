@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# Simple CSS Gradient Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a straightforward CSS gradient generator that allows you to easily create beautiful gradients for your web projects. With this tool, you can generate CSS code for linear gradients by selecting colors and adjusting gradient properties.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Color selection: Pick two or more colors for your gradient.
+- Gradient type: Generate linear gradients.
+- Gnenerate random colors: Generate random colors for your gradient.
+- Copy to clipboard: Easily copy the generated CSS code.
+- Preview: See a live preview of the gradient as you make changes.
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Visit the [Simple CSS Gradient Generator](https://allengl.github.io/colorflow-preview/index.html).
+2. Select the colors you want for your gradient by clicking the color boxes.
+3. And also you can generate random colors by clicking the random button.
+4. Copy the generated CSS code to your clipboard.
+5. Paste the CSS code into your project.
 
-- Configure the top-level `parserOptions` property like this:
+## Example
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```css
+/* Generated Gradient CSS */
+background: linear-gradient(135deg, #ff6a00, #ee0979);
+Demo
+You can see a live demo of the CSS Gradient Generator here.
